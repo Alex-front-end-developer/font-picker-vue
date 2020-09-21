@@ -7,6 +7,3 @@ Thumbs.db
 
 # Node
 node_modules/
-
-# build output
-lib/
