@@ -84,6 +84,7 @@
             this.fontManager.init()
                 .then(() => {
                     // font list has finished loading
+									this.$emit('loaded', true);
                     this.setState({
                         errorText: '',
                         loadingStatus: 'finished'
